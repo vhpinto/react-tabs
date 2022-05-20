@@ -11,5 +11,5 @@ const Template: ComponentStory<typeof Nav> = (args) => <Nav {...args} />;
 
 export const ButtonDefault = Template.bind({});
 ButtonDefault.args = {
-  tabTitle: ['Botão 1'],
+  tabTitle: ['Story title'],
 };

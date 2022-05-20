@@ -13,15 +13,15 @@ export const Default = Template.bind({});
 
 Default.args = {
   titles: [
-      "Tab 1 title",
-      "Tab 2 title",
-      "Tab 3 title",
-      "Tab 4 title"
+      "Stories tab 1 title",
+      "Stories tab 2 title",
+      "Stories tab 3 title",
+      "Stories tab 4 title"
     ],
   texts: [
-      "Tab 1 content",
-      "Tab 2 content",
-      "Tab 3 content",
-      "Tab 4 content"
+      "Stories tab 1 content",
+      "Stories tab 2 content",
+      "Stories tab 3 content",
+      "Stories tab 4 content"
     ]
 };
