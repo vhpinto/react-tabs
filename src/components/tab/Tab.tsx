@@ -1,4 +1,4 @@
-// import './tab.css';
+import './Tab.css';
 
 interface TabProps {
     text: string
@@ -6,7 +6,7 @@ interface TabProps {
 
 export function Tab(props: TabProps) {
     return (
-        <div className='tab-text'>
+        <div className='tab'>
             <h3> {props.text} </h3>
         </div>
     );

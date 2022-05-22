@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import { Nav } from './Nav';
 import { Tab } from './Tab';
-// import './Tabs.css';
+import './Tabs.css';
 
 interface TabsProps {
     titles: string[],

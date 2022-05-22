@@ -1,4 +1,4 @@
-// import './Nav.css';
+import './Nav.css';
 
 interface NavProps {
     tabTitle: string[]
@@ -8,15 +8,15 @@ interface NavProps {
 
 export function Nav(props: NavProps) {
     const buttons = props.tabTitle.map((txt, index) => (
-        <button className={ index === props.currentTab ? 'nav-button-selected' : 'nav-button' }
+        <span
             key={index}
             onClick={() => props.onSetTab && props.onSetTab(index)}>
             {txt}
-        </button>
+        </span>
     ))
 
     return (
-        <div className='nav-menu'>
+        <div className='nav'>
             {buttons}
         </div>
     );
