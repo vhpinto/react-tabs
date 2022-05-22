@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { Nav } from '../components/tab/Nav';
 
 export default {
-  title: 'Tab/Nav',
+  title: 'Tabs/Nav',
   component: Nav
 } as ComponentMeta<typeof Nav>;
 

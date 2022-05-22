@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { Tabs } from '../components/tab/Tabs';
 
 export default {
-  title: 'Tabs',
+  title: 'Tabs/Tabs',
   component: Tabs
 } as ComponentMeta<typeof Tabs>;
 
